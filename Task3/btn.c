@@ -5,6 +5,12 @@
  *  Author: MOHAMED ABDELSALAM
  */ 
 #include "btn.h"
+/*
+ Name: BUTTON_init
+ Input: str_gpio_config_t st_gpio_config
+ Output: void
+ Description: Function to initialize Pin direction.
+*/
 void BUTTON_init (str_gpio_config_t st_gpio_config)
 {
 	st_gpio_config.enm_gpio_pinAmpere = R8;

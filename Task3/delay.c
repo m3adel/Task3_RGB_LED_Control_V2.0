@@ -1,8 +1,8 @@
 /*
  * delay.c
  *
- * Created: 4/16/2023 8:16:02 PM
- *  Author: lenovo
+ * Created: 6/20/2023 8:16:02 PM
+ *  Author: Mohamed Abdelsalam
  */ 
 #include "delay.h"
 
@@ -19,10 +19,8 @@ void Delay_ms(u32 milliseconds)
 	u32 i;
 	
 	milliseconds = 1000 * milliseconds;
-	for(i=0;i< milliseconds ;i++){
-		
-		// N = (1000us)/(250u);  //= 4 without approximation
-		//for one millisecond delay iterate 4 times of timer2 overflow
+	for(i=0;i< milliseconds ;i++)
+	{
 			while((SYSTICK_getStatus()) == 1);
 	}
 	SYSTICK_Stop ();

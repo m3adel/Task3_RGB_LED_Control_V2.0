@@ -74,11 +74,9 @@ void APP_start(void)
 			//
 			break;					
 		}
-	//LED_off(RED_LED);
-	
 		Delay_ms(1000);
-			LED_off(RED_LED);
-			LED_off(GREEN_LED);
-			LED_off(BLUE_LED);
+		LED_off(RED_LED);
+		LED_off(GREEN_LED);
+		LED_off(BLUE_LED);
 }
 

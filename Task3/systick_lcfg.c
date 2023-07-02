@@ -1,7 +1,7 @@
 /*
  * systick_lcfg.c
  *
- *     Created on: Jun 22, 2023
+ *     Created on: Jun 21, 2023
  *         Author: Mohamed Abdelsalam - https://github.com/m3adel
  *    Description: This file contains all General Purpose Input Output (systick) linking configurations implementation.
  *  MCU Datasheet: Tiva™ TM4C123GH6PM - https://www.ti.com/lit/pdf/spms376

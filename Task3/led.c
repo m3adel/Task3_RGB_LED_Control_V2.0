@@ -6,7 +6,12 @@
  */ 
  
 #include "led.h"
-
+/*
+ Name: LED_init
+ Input: str_gpio_config_t st_gpio_config
+ Output: void
+ Description: Function to initialize Pin direction.
+*/
 void LED_init (str_gpio_config_t st_gpio_config)
 {
 	st_gpio_config.enm_gpio_pinAmpere = R8;

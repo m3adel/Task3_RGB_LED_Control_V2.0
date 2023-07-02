@@ -1,4 +1,6 @@
 
+#ifndef SYSTICK_LCFG_H_
+#define SYSTICK_LCFG_H_
 #include "common.h"
 typedef enum
 {
@@ -28,3 +30,4 @@ typedef struct
 	
 }systick_st_cfg_t;
 
+#endif /*SYSTICK_LCFG_H_*/

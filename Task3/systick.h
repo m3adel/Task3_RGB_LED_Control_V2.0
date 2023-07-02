@@ -1,3 +1,5 @@
+#ifndef SYSTICK_H_
+#define SYSTICK_H_
 
 #include "systick_lcfg.h"
 #include "TM4C123.h"
@@ -8,4 +10,4 @@ void SYSTICK_interrupt_en(void);
 void SYSTICK_interrupt_dis(void);
 u8 SYSTICK_getStatus(void);
 void SYSTICK_Stop (void);
-
+#endif /*SYSTICK_H_*/
