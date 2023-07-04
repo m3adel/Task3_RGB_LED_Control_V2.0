@@ -1,9 +1,9 @@
-.\objects\app.o: app.c
-.\objects\app.o: app.h
-.\objects\app.o: delay.h
-.\objects\app.o: systick.h
-.\objects\app.o: systick_lcfg.h
-.\objects\app.o: common.h
+.\objects\app.o: APP\app.c
+.\objects\app.o: APP\app.h
+.\objects\app.o: APP\../SERVICE/delay/delay.h
+.\objects\app.o: APP\../SERVICE/delay/../../MCAL/systick/systick.h
+.\objects\app.o: APP\../SERVICE/delay/../../MCAL/systick/systick_lcfg.h
+.\objects\app.o: APP\../SERVICE/delay/../../MCAL/systick/../../LIB/common.h
 .\objects\app.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\app.o: C:\Users\lenovo\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h
 .\objects\app.o: C:\Users\lenovo\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h
@@ -13,6 +13,6 @@
 .\objects\app.o: C:\Users\lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
 .\objects\app.o: C:\Users\lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
 .\objects\app.o: C:\Users\lenovo\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h
-.\objects\app.o: led.h
-.\objects\app.o: gpio.h
-.\objects\app.o: btn.h
+.\objects\app.o: APP\../HAL/led/led.h
+.\objects\app.o: APP\../HAL/led/../../MCAL/gpio/gpio.h
+.\objects\app.o: APP\../HAL/btn/btn.h
