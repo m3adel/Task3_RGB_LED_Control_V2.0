@@ -385,7 +385,7 @@
             <File>
               <FileName>common.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\common.h</FilePath>
+              <FilePath>.\LIB\common.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -393,34 +393,34 @@
           <GroupName>MCAL</GroupName>
           <Files>
             <File>
-              <FileName>systick_lcfg.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\systick_lcfg.h</FilePath>
-            </File>
-            <File>
-              <FileName>systick.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\systick.h</FilePath>
-            </File>
-            <File>
-              <FileName>systick.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\systick.c</FilePath>
-            </File>
-            <File>
-              <FileName>systick_lcfg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\systick_lcfg.c</FilePath>
-            </File>
-            <File>
               <FileName>gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\gpio.c</FilePath>
+              <FilePath>.\MCAL\gpio\gpio.c</FilePath>
             </File>
             <File>
               <FileName>gpio.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\gpio.h</FilePath>
+              <FilePath>.\MCAL\gpio\gpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MCAL\systick\systick.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\MCAL\systick\systick.h</FilePath>
+            </File>
+            <File>
+              <FileName>systick_lcfg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MCAL\systick\systick_lcfg.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick_lcfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\MCAL\systick\systick_lcfg.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -428,34 +428,24 @@
           <GroupName>HAL</GroupName>
           <Files>
             <File>
-              <FileName>led.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>led.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\led.h</FilePath>
-            </File>
-            <File>
               <FileName>btn.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\btn.c</FilePath>
+              <FilePath>.\HAL\btn\btn.c</FilePath>
             </File>
             <File>
               <FileName>btn.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\btn.h</FilePath>
+              <FilePath>.\HAL\btn\btn.h</FilePath>
             </File>
             <File>
-              <FileName>delay.c</FileName>
+              <FileName>led.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\delay.c</FilePath>
+              <FilePath>.\HAL\led\led.c</FilePath>
             </File>
             <File>
-              <FileName>delay.h</FileName>
+              <FileName>led.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\delay.h</FilePath>
+              <FilePath>.\HAL\led\led.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -475,12 +465,27 @@
             <File>
               <FileName>app.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\app.c</FilePath>
+              <FilePath>.\APP\app.c</FilePath>
             </File>
             <File>
               <FileName>app.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\app.h</FilePath>
+              <FilePath>.\APP\app.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>SERVICE</GroupName>
+          <Files>
+            <File>
+              <FileName>delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SERVICE\delay\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>delay.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\SERVICE\delay\delay.h</FilePath>
             </File>
           </Files>
         </Group>

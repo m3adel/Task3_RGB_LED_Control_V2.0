@@ -1,8 +1,8 @@
-.\objects\delay.o: delay.c
-.\objects\delay.o: delay.h
-.\objects\delay.o: systick.h
-.\objects\delay.o: systick_lcfg.h
-.\objects\delay.o: common.h
+.\objects\delay.o: SERVICE\delay\delay.c
+.\objects\delay.o: SERVICE\delay\delay.h
+.\objects\delay.o: SERVICE\delay\../../MCAL/systick/systick.h
+.\objects\delay.o: SERVICE\delay\../../MCAL/systick/systick_lcfg.h
+.\objects\delay.o: SERVICE\delay\../../MCAL/systick/../../LIB/common.h
 .\objects\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\delay.o: C:\Users\lenovo\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h
 .\objects\delay.o: C:\Users\lenovo\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h

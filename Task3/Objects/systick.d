@@ -1,7 +1,7 @@
-.\objects\systick.o: systick.c
-.\objects\systick.o: systick.h
-.\objects\systick.o: systick_lcfg.h
-.\objects\systick.o: common.h
+.\objects\systick.o: MCAL\systick\systick.c
+.\objects\systick.o: MCAL\systick\systick.h
+.\objects\systick.o: MCAL\systick\systick_lcfg.h
+.\objects\systick.o: MCAL\systick\../../LIB/common.h
 .\objects\systick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\systick.o: C:\Users\lenovo\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h
 .\objects\systick.o: C:\Users\lenovo\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h
